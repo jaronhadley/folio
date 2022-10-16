@@ -25,7 +25,6 @@ body {
 
 h1 {
   margin: 32px 0;
-  color: #fff;
   font-size: 24px;
 }
 
@@ -51,7 +50,7 @@ h3 {
   outline: none;
   width: 320px;
   background: transparent;
-  color: #fff;
+  color: black;
 }
 
 .bucket-input::placeholder {
@@ -192,4 +191,28 @@ h3 {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #5d0cff;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: cornflowerblue;
+}
+.nav-item {
+  padding: 15px;
+  margin: 15px;
+}
+img {
+  width:100%;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: cornflowerblue;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
